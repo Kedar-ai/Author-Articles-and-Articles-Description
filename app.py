@@ -11,8 +11,8 @@ app.secret_key = "abc"
 mysql = MySQL()
    
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'Kedar'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'Secret'
+app.config['MYSQL_DATABASE_USER'] = 'Kedar_'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'Secre123'
 app.config['MYSQL_DATABASE_DB'] = 'testingdb'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
